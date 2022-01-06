@@ -1,0 +1,351 @@
+2022-01-06 12:36:38.957  INFO 672440 --- [restartedMain] c.m.demo.UsersServiceApplication         : Starting UsersServiceApplication using Java 1.8.0_202 on DESKTOP-ENE6SCK with PID 672440 (C:\Users\Home\generafi\ng-trainning\microservice-organisation\user-service\target\classes started by Home in C:\Users\Home\generafi\ng-trainning\microservice-organisation\user-service)
+2022-01-06 12:36:38.959  INFO 672440 --- [restartedMain] c.m.demo.UsersServiceApplication         : No active profile set, falling back to default profiles: default
+2022-01-06 12:36:39.041  INFO 672440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-06 12:36:39.043  INFO 672440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-06 12:36:40.054  INFO 672440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-01-06 12:36:40.072  INFO 672440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2022-01-06 12:36:40.561  INFO 672440 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6c313dda-deba-3d5f-b6da-9ae058e516a6
+2022-01-06 12:36:40.650  INFO 672440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-06 12:36:40.653  INFO 672440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-06 12:36:40.660  INFO 672440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-06 12:36:41.534  INFO 672440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-06 12:36:41.550  INFO 672440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-06 12:36:41.551  INFO 672440 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-06 12:36:41.619  INFO 672440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-06 12:36:41.620  INFO 672440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2576 ms
+2022-01-06 12:36:42.342  WARN 672440 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-01-06 12:36:43.501  INFO 672440 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=cluster0.esleq.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-12ufyi-shard-0'}
+2022-01-06 12:36:43.563  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-srv-cluster0.esleq.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-00.esleq.mongodb.net:27017 to client view of cluster
+2022-01-06 12:36:43.563  WARN 672440 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-01-06 12:36:43.615  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-srv-cluster0.esleq.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-02.esleq.mongodb.net:27017 to client view of cluster
+2022-01-06 12:36:43.617  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-srv-cluster0.esleq.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-01.esleq.mongodb.net:27017 to client view of cluster
+2022-01-06 12:36:44.317  INFO 672440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-06 12:36:44.587  INFO 672440 --- [cluster-rtt-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:47704}] to cluster0-shard-00-01.esleq.mongodb.net:27017
+2022-01-06 12:36:44.587  INFO 672440 --- [cluster-rtt-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-00.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:45505}] to cluster0-shard-00-00.esleq.mongodb.net:27017
+2022-01-06 12:36:44.587  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-02.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:45378}] to cluster0-shard-00-02.esleq.mongodb.net:27017
+2022-01-06 12:36:44.587  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-00.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:45505}] to cluster0-shard-00-00.esleq.mongodb.net:27017
+2022-01-06 12:36:44.587  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:47704}] to cluster0-shard-00-01.esleq.mongodb.net:27017
+2022-01-06 12:36:44.590  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-00.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.esleq.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=312544300, setName='atlas-12ufyi-shard-0', canonicalAddress=cluster0-shard-00-00.esleq.mongodb.net:27017, hosts=[cluster0-shard-00-02.esleq.mongodb.net:27017, cluster0-shard-00-01.esleq.mongodb.net:27017, cluster0-shard-00-00.esleq.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.esleq.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_WEST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=61d472a328d3655c08c29bff, counter=4}, lastWriteDate=Thu Jan 06 12:37:19 CET 2022, lastUpdateTimeNanos=1461658900098500}
+2022-01-06 12:36:44.587  INFO 672440 --- [cluster-rtt-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-02.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:45378}] to cluster0-shard-00-02.esleq.mongodb.net:27017
+2022-01-06 12:36:44.589  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-02.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.esleq.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=311997100, setName='atlas-12ufyi-shard-0', canonicalAddress=cluster0-shard-00-02.esleq.mongodb.net:27017, hosts=[cluster0-shard-00-02.esleq.mongodb.net:27017, cluster0-shard-00-01.esleq.mongodb.net:27017, cluster0-shard-00-00.esleq.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.esleq.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_WEST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=61d473f5bf6bf7c914472c17, counter=3}, lastWriteDate=Thu Jan 06 12:37:19 CET 2022, lastUpdateTimeNanos=1461658900105700}
+2022-01-06 12:36:44.590  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.esleq.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=312447300, setName='atlas-12ufyi-shard-0', canonicalAddress=cluster0-shard-00-01.esleq.mongodb.net:27017, hosts=[cluster0-shard-00-02.esleq.mongodb.net:27017, cluster0-shard-00-01.esleq.mongodb.net:27017, cluster0-shard-00-00.esleq.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.esleq.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_WEST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000003d, setVersion=6, topologyVersion=TopologyVersion{processId=61d473430541882d317d38eb, counter=6}, lastWriteDate=Thu Jan 06 12:37:19 CET 2022, lastUpdateTimeNanos=1461658900098000}
+2022-01-06 12:36:44.594  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff000000000000003d from replica set primary cluster0-shard-00-01.esleq.mongodb.net:27017
+2022-01-06 12:36:44.596  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 6 from replica set primary cluster0-shard-00-01.esleq.mongodb.net:27017
+2022-01-06 12:36:44.596  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.esleq.mongodb.net:27017
+2022-01-06 12:36:44.708  INFO 672440 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-01-06 12:36:45.344  WARN 672440 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-01-06 12:36:45.386  INFO 672440 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-01-06 12:36:45.517  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-01-06 12:36:45.525  INFO 672440 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 12:36:45.578  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-01-06 12:36:45.580  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-01-06 12:36:45.581  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-01-06 12:36:45.582  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-01-06 12:36:45.583  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-01-06 12:36:45.585  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-01-06 12:36:45.587  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-01-06 12:36:46.381  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-01-06 12:36:46.385  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-01-06 12:36:46.390  INFO 672440 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-01-06 12:36:46.398  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1641469006396 with initial instances count: 0
+2022-01-06 12:36:46.407  INFO 672440 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERS-SERVICE with eureka with status UP
+2022-01-06 12:36:46.408  INFO 672440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1641469006408, current=UP, previous=STARTING]
+2022-01-06 12:36:46.413  INFO 672440 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-SERVICE/DESKTOP-ENE6SCK.mshome.net:USERS-SERVICE: registering service...
+2022-01-06 12:36:46.474  INFO 672440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-06 12:36:46.476  INFO 672440 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-01-06 12:36:46.921  INFO 672440 --- [restartedMain] c.m.demo.UsersServiceApplication         : Started UsersServiceApplication in 9.009 seconds (JVM running for 9.71)
+2022-01-06 12:36:46.999  INFO 672440 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-SERVICE/DESKTOP-ENE6SCK.mshome.net:USERS-SERVICE - registration status: 204
+2022-01-06 12:36:58.784  INFO 672440 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-06 12:36:58.786  INFO 672440 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-06 12:36:58.788  INFO 672440 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-06 12:37:16.387  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-01-06 12:37:16.389  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-01-06 12:37:16.389  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-01-06 12:37:16.390  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-01-06 12:37:16.390  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-01-06 12:37:16.391  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-01-06 12:37:16.391  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-01-06 12:37:16.478  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-01-06 12:41:45.603  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 12:46:45.609  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 12:51:45.615  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 12:56:45.629  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 13:01:45.636  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 13:06:45.651  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 14:01:49.075  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-01.esleq.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:636) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:515) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_202]
+Caused by: java.net.SocketException: Socket Closed
+	at java.net.AbstractPlainSocketImpl.setOption(AbstractPlainSocketImpl.java:212) ~[na:1.8.0_202]
+	at java.net.PlainSocketImpl.setOption(PlainSocketImpl.java:176) ~[na:1.8.0_202]
+	at java.net.Socket.setSoTimeout(Socket.java:1141) ~[na:1.8.0_202]
+	at sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:631) ~[na:1.8.0_202]
+	at sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:2556) ~[na:1.8.0_202]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:133) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 5 common frames omitted
+
+2022-01-06 14:01:49.076  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-00.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-00.esleq.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:636) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:515) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_202]
+Caused by: java.net.SocketException: Socket Closed
+	at java.net.AbstractPlainSocketImpl.setOption(AbstractPlainSocketImpl.java:212) ~[na:1.8.0_202]
+	at java.net.PlainSocketImpl.setOption(PlainSocketImpl.java:176) ~[na:1.8.0_202]
+	at java.net.Socket.setSoTimeout(Socket.java:1141) ~[na:1.8.0_202]
+	at sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:631) ~[na:1.8.0_202]
+	at sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:2556) ~[na:1.8.0_202]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:133) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 5 common frames omitted
+
+2022-01-06 14:01:49.076  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-02.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-02.esleq.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:636) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:515) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_202]
+Caused by: java.net.SocketException: Socket Closed
+	at java.net.AbstractPlainSocketImpl.setOption(AbstractPlainSocketImpl.java:212) ~[na:1.8.0_202]
+	at java.net.PlainSocketImpl.setOption(PlainSocketImpl.java:176) ~[na:1.8.0_202]
+	at java.net.Socket.setSoTimeout(Socket.java:1141) ~[na:1.8.0_202]
+	at sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:631) ~[na:1.8.0_202]
+	at sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:2556) ~[na:1.8.0_202]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:133) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 5 common frames omitted
+
+2022-01-06 14:01:49.246  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-01.esleq.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-01.esleq.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_202]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-01.esleq.mongodb.net
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:1.8.0_202]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[na:1.8.0_202]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 6 common frames omitted
+
+2022-01-06 14:01:49.247  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-00.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-00.esleq.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-00.esleq.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_202]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-00.esleq.mongodb.net
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:1.8.0_202]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[na:1.8.0_202]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 6 common frames omitted
+
+2022-01-06 14:01:49.264  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-02.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-02.esleq.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-02.esleq.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_202]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-02.esleq.mongodb.net
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:1.8.0_202]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[na:1.8.0_202]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[na:1.8.0_202]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 6 common frames omitted
+
+2022-01-06 14:01:52.086  INFO 672440 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='https://register-server-demo.herokuapp.com/eureka/}, exception=I/O error on PUT request for "https://register-server-demo.herokuapp.com/eureka/apps/USERS-SERVICE/DESKTOP-ENE6SCK.mshome.net:USERS-SERVICE": register-server-demo.herokuapp.com; nested exception is java.net.UnknownHostException: register-server-demo.herokuapp.com stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "https://register-server-demo.herokuapp.com/eureka/apps/USERS-SERVICE/DESKTOP-ENE6SCK.mshome.net:USERS-SERVICE": register-server-demo.herokuapp.com; nested exception is java.net.UnknownHostException: register-server-demo.herokuapp.com
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: register-server-demo.herokuapp.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 20 more
+
+2022-01-06 14:01:52.087  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='https://register-server-demo.herokuapp.com/eureka/}, exception=I/O error on GET request for "https://register-server-demo.herokuapp.com/eureka/apps/delta": register-server-demo.herokuapp.com; nested exception is java.net.UnknownHostException: register-server-demo.herokuapp.com stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://register-server-demo.herokuapp.com/eureka/apps/delta": register-server-demo.herokuapp.com; nested exception is java.net.UnknownHostException: register-server-demo.herokuapp.com
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: register-server-demo.herokuapp.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+
+2022-01-06 14:01:52.096  WARN 672440 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "https://register-server-demo.herokuapp.com/eureka/apps/USERS-SERVICE/DESKTOP-ENE6SCK.mshome.net:USERS-SERVICE": register-server-demo.herokuapp.com; nested exception is java.net.UnknownHostException: register-server-demo.herokuapp.com
+2022-01-06 14:01:52.104  WARN 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "https://register-server-demo.herokuapp.com/eureka/apps/delta": register-server-demo.herokuapp.com; nested exception is java.net.UnknownHostException: register-server-demo.herokuapp.com
+2022-01-06 14:01:52.105  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-SERVICE/DESKTOP-ENE6SCK.mshome.net:USERS-SERVICE - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-01-06 14:01:52.105 ERROR 672440 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-SERVICE/DESKTOP-ENE6SCK.mshome.net:USERS-SERVICE - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) [eureka-client-1.10.17.jar:1.10.17]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_202]
+
+2022-01-06 14:01:59.510  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:11, serverValue:49336}] to cluster0-shard-00-01.esleq.mongodb.net:27017
+2022-01-06 14:01:59.511  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.esleq.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=185814200, setName='atlas-12ufyi-shard-0', canonicalAddress=cluster0-shard-00-01.esleq.mongodb.net:27017, hosts=[cluster0-shard-00-02.esleq.mongodb.net:27017, cluster0-shard-00-01.esleq.mongodb.net:27017, cluster0-shard-00-00.esleq.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.esleq.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_WEST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000003d, setVersion=6, topologyVersion=TopologyVersion{processId=61d473430541882d317d38eb, counter=6}, lastWriteDate=Thu Jan 06 14:02:33 CET 2022, lastUpdateTimeNanos=1466773833113300}
+2022-01-06 14:01:59.513  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.esleq.mongodb.net:27017
+2022-01-06 14:01:59.516  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-00.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:12, serverValue:46949}] to cluster0-shard-00-00.esleq.mongodb.net:27017
+2022-01-06 14:01:59.517  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-00.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.esleq.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=188626500, setName='atlas-12ufyi-shard-0', canonicalAddress=cluster0-shard-00-00.esleq.mongodb.net:27017, hosts=[cluster0-shard-00-02.esleq.mongodb.net:27017, cluster0-shard-00-01.esleq.mongodb.net:27017, cluster0-shard-00-00.esleq.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.esleq.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_WEST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=61d472a328d3655c08c29bff, counter=4}, lastWriteDate=Thu Jan 06 14:02:33 CET 2022, lastUpdateTimeNanos=1466773838929300}
+2022-01-06 14:01:59.631  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-02.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:13, serverValue:46830}] to cluster0-shard-00-02.esleq.mongodb.net:27017
+2022-01-06 14:01:59.632  INFO 672440 --- [cluster-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-02.esleq.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.esleq.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=183036700, setName='atlas-12ufyi-shard-0', canonicalAddress=cluster0-shard-00-02.esleq.mongodb.net:27017, hosts=[cluster0-shard-00-02.esleq.mongodb.net:27017, cluster0-shard-00-01.esleq.mongodb.net:27017, cluster0-shard-00-00.esleq.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.esleq.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_WEST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=61d473f5bf6bf7c914472c17, counter=3}, lastWriteDate=Thu Jan 06 14:02:33 CET 2022, lastUpdateTimeNanos=1466773953577300}
+2022-01-06 14:02:06.292  INFO 672440 --- [cluster-rtt-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-00.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:14, serverValue:46963}] to cluster0-shard-00-00.esleq.mongodb.net:27017
+2022-01-06 14:02:06.463  INFO 672440 --- [cluster-rtt-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-02.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:15, serverValue:46836}] to cluster0-shard-00-02.esleq.mongodb.net:27017
+2022-01-06 14:02:09.317  INFO 672440 --- [cluster-rtt-ClusterId{value='61d6d44bb691431041154137', description='null'}-cluster0-shard-00-01.esleq.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:16, serverValue:49354}] to cluster0-shard-00-01.esleq.mongodb.net:27017
+2022-01-06 14:02:41.104  INFO 672440 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-SERVICE/DESKTOP-ENE6SCK.mshome.net:USERS-SERVICE - Re-registering apps/USERS-SERVICE
+2022-01-06 14:02:41.105  INFO 672440 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-SERVICE/DESKTOP-ENE6SCK.mshome.net:USERS-SERVICE: registering service...
+2022-01-06 14:02:41.265  INFO 672440 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-SERVICE/DESKTOP-ENE6SCK.mshome.net:USERS-SERVICE - registration status: 204
+2022-01-06 14:03:11.190  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-01-06 14:03:11.191  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-01-06 14:03:11.192  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-01-06 14:03:11.192  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-01-06 14:03:11.192  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-01-06 14:03:11.193  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-01-06 14:03:11.193  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-01-06 14:03:11.269  INFO 672440 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-01-06 14:06:15.888  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 14:11:15.917  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 14:16:15.946  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 14:21:15.962  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 14:26:15.983  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 14:31:16.049  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-06 14:36:16.121  INFO 672440 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
